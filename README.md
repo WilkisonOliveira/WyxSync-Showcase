@@ -276,11 +276,6 @@ O WyxSync é meu projeto principal de portfólio — construído de ponta a pont
 
 ---
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
 
 <div align="center">
 <sub>Desenvolvido com foco, disciplina e muita iteração. ⚙️</sub>
