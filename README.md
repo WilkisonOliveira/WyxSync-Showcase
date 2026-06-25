@@ -168,77 +168,51 @@ O projeto nasceu como solução para um problema real: a fragmentação de ferra
 - [PostgreSQL 15+](https://www.postgresql.org) ou [Docker](https://docker.com)
 - [Git](https://git-scm.com)
 
-### Frontend
+## 🚀 Demonstração
 
-```bash
-# Clone o repositório
-git clone https://github.com/WilkisonOliveira/wyxsync-web.git
-cd wyxsync-web
+O WyxSync encontra-se em fase final de preparação para lançamento.
 
-# Instale as dependências
-npm install
+### Principais recursos disponíveis
 
-# Configure as variáveis de ambiente
-cp .env.example .env
-# Edite o .env com sua URL do backend
+* Autenticação com e-mail e Google
+* Controle de treinos e agenda semanal
+* Monitoramento nutricional
+* Registro de refeições por imagem
+* Assistente virtual com IA (Wyx)
+* Controle de planos Free e Premium
+* Sistema de notificações
+* Compartilhamento de treinos
+* Acompanhamento de progresso
 
-# Inicie o servidor de desenvolvimento
-npm run dev
-```
+### Tecnologias Utilizadas
 
-### Backend
+**Frontend**
 
-```bash
-git clone https://github.com/WilkisonOliveira/wyxsync-api.git
-cd wyxsync-api
+* React
+* JavaScript
+* Vite
+* Capacitor
 
-# Configure as variáveis de ambiente
-cp .env.example .env
-# Preencha as chaves de API (ver seção abaixo)
+**Backend**
 
-# Aplique as migrations
-dotnet ef database update
+* ASP.NET Core
+* Entity Framework Core
+* PostgreSQL
+* JWT Authentication
 
-# Inicie a API
-dotnet run
-```
+**Infraestrutura**
 
-### Variáveis de Ambiente (Backend)
+* Vercel
+* Railway
+* Docker
 
-```env
-# Banco de Dados
-DATABASE_URL=postgresql://user:password@localhost:5432/wyxsync
+**Integrações**
 
-# JWT
-JWT_SECRET=sua_chave_secreta_256bits
-JWT_EXPIRES_IN=60
+* Google OAuth
+* IA Generativa
+* Resend
+* Mercado Pago
 
-# Google OAuth
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
-
-# OpenAI
-OPENAI_API_KEY=
-
-# Groq
-GROQ_API_KEY=
-
-# Mercado Pago
-MERCADOPAGO_ACCESS_TOKEN=
-MERCADOPAGO_WEBHOOK_SECRET=
-
-# Resend (e-mail)
-RESEND_API_KEY=
-RESEND_FROM_EMAIL=noreply@wyxsync.com.br
-```
-
-### Via Docker
-
-```bash
-docker-compose up -d
-```
-
----
 
 ## 🚧 Desafios Técnicos Enfrentados
 
