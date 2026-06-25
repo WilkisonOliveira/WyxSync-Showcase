@@ -102,13 +102,13 @@ O projeto nasceu como solução para um problema real: a fragmentação de ferra
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│                    CLIENT LAYER                      │
+│                    CLIENT LAYER                     │
 │  React + Vite (SPA)  ──  Capacitor (Android APK)    │
 └─────────────────────────┬───────────────────────────┘
                           │ HTTPS / REST
 ┌─────────────────────────▼───────────────────────────┐
-│                    API LAYER                         │
-│            ASP.NET Core 8 (Railway)                  │
+│                    API LAYER                        │
+│            ASP.NET Core 8 (Railway)                 │
 │  ┌──────────┐  ┌──────────┐  ┌──────────────────┐   │
 │  │  Auth    │  │  Domain  │  │  Subscription    │   │
 │  │  Module  │  │  Logic   │  │  Module          │   │
@@ -118,12 +118,12 @@ O projeto nasceu como solução para um problema real: a fragmentação de ferra
 └────────┬─────────────────────────┬──────────────────┘
          │                         │
 ┌────────▼──────────┐   ┌──────────▼─────────────────┐
-│   DATA LAYER       │   │      EXTERNAL SERVICES      │
-│  PostgreSQL        │   │  OpenAI API  (GPT)          │
-│  (Railway)         │   │  Groq AI     (fallback)     │
-│                   │   │  Google OAuth 2.0            │
-│                   │   │  Resend      (e-mail)        │
-│                   │   │  Mercado Pago (payments)     │
+│   DATA LAYER      │   │      EXTERNAL SERVICES     │
+│  PostgreSQL       │   │  OpenAI API  (GPT)         │
+│  (Railway)        │   │  Groq AI     (fallback)    │
+│                   │   │  Google OAuth 2.0          │
+│                   │   │  Resend      (e-mail)      │
+│                   │   │  Mercado Pago (payments)   │
 └───────────────────┘   └────────────────────────────┘
 ```
 
