@@ -59,7 +59,11 @@ O projeto nasceu como solução para um problema real: a fragmentação de ferra
 
 ---
 
-## 🖼️ Demonstração
+## 🎬 Demonstração
+
+[![Demo WyxSync](https://img.youtube.com/vi/nheyalTu7_o/maxresdefault.jpg)](https://youtu.be/nheyalTu7_o)
+
+> Demonstração completa do fluxo: autenticação, dashboard, treinos, nutrição e assistente Wyx.
 
 <details>
 <summary><strong>Ver screenshots do produto</strong></summary>
