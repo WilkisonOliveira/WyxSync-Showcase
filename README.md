@@ -152,8 +152,8 @@ O projeto nasceu como solução para um problema real: a fragmentação de ferra
 | Backend | JWT Bearer | — | Autenticação stateless |
 | Banco de Dados | PostgreSQL | 15 | Persistência principal |
 | Pagamento | Mercado Pago | — | Checkout Pro, webhooks |
-| IA Principal | OpenAI API | GPT-5o | Assistente Wyx, análise nutricional |
-| IA Fallback | OpenAI API | — | Latência otimizada, custo reduzido |
+| IA Principal | OpenAI API | GPT-4.1 mini | Assistente Wyx, análise nutricional |
+| IA Fallback  | Groq AI    | —            | Latência otimizada, custo reduzido  |
 | Auth Social | Google OAuth 2.0 | — | Login social |
 | E-mail | Resend | — | Verificação de conta |
 | Deploy Frontend | Vercel | — | CI/CD automático via GitHub |
